@@ -1,7 +1,9 @@
 # Spaceship Titanic
 It's our mission to predict if passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
 
-## Tools:
+
+
+## <u>Tools:                                                                                                                                        </u>
 
 <div align=center><a href="https://colab.research.google.com" target="_blank"><img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white"></a>
 <a href="http://python.org" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
