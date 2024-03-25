@@ -1,10 +1,10 @@
 # Spaceship Titanic
-## <u>Overview:                                                                                                                              </u>
+## <u>Overview                                                                                                                              </u>
 It's our mission to predict if passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
 
 
 
-## <u>Tools:                                                                                                                                        </u>
+## <u>Tools                                                                                                                                        </u>
 
 <div align=center><a href="https://colab.research.google.com" target="_blank"><img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white"></a>
 <a href="http://python.org" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
@@ -15,6 +15,7 @@ It's our mission to predict if passenger was transported to an alternate dimensi
 
 
 ### Data Field Descriptions
+
 PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
 
 HomePlanet - The planet the passenger departed from, typically their planet of permanent residence.
