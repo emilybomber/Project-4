@@ -1,6 +1,6 @@
 # Spaceship Titanic
 ## <u>Overview                                                                                                                              </u>
-It's our mission to predict if passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
+It's our mission to predict if a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
 
 _"Welcome to the year 2912, where your data science skills are needed to solve a cosmic mystery. We've received a transmission from four lightyears away and things aren't looking good._
 
