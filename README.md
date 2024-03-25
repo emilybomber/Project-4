@@ -8,7 +8,7 @@ _The Spaceship Titanic was an interstellar passenger liner launched a month ago.
 
 _While rounding Alpha Centauri en route to its first destination—the torrid 55 Cancri E—the unwary Spaceship Titanic collided with a spacetime anomaly hidden within a dust cloud. Sadly, it met a similar fate as its namesake from 1000 years before. Though the ship stayed intact, almost half of the passengers were transported to an alternate dimension!"_
 
-This project is a culmination of knowledge utilizing tools and techniques learned during the course. Chosen form Kaggle.com in the competition section, Spaceship Titanic helps demonstrate machine learning
+This project is a culmination of knowledge utilizing tools and techniques learned during the course. Chosen form Kaggle.com in the competition section, Spaceship Titanic helps demonstrate machine learning with the use of the following tools.
 
 ## <u>Tools                                                                                                                                        </u>
 
@@ -58,8 +58,19 @@ The iterative optimization process, crucial for enhancing the model's performanc
 
 Print out of the results as follows:
 
-68/68 - 0s - loss: 0.4423 - accuracy: 0.7912 - 98ms/epoch - 1ms/step
-Loss: 0.4422522485256195, Accuracy: 0.7911683320999146
+68/68 - 0s - loss: 0.4423 - accuracy: 0.7912 - 98ms/epoch - 1ms/step Loss: 0.4422522485256195, Accuracy: 0.7911683320999146
+
+After running an initial model, we the opted to use Keras Tuner
+
+The provided code demonstrates the utilization of Keras Tuner, a tool for hyperparameter tuning in TensorFlow, to optimize the neural network model for binary classification. Instead of manually specifying hyperparameters like activation functions and layer sizes, Keras Tuner automates this process by searching through a predefined search space for the best set of hyperparameters that maximize the chosen objective metric. In this case, the objective is set to maximize validation accuracy.
+
+The **create_model** function defines the architecture of the neural network model with tunable hyperparameters using Keras Tuner's API. It allows Keras Tuner to choose the activation function for hidden layers, the number of neurons in the first layer, the number of hidden layers, and the number of neurons in each hidden layer. These hyperparameters are then used to construct the model within the search space defined by the user.
+
+The Keras Tuner instance, configured with the Hyperband algorithm, conducts a hyperparameter search over a specified number of epochs and iterations. The search is performed using the training data (**X_train_scaled** and **y_train**) while validating against the testing data (**X_test_scaled** and **y_test**). After the search, the best hyperparameters and the corresponding model are obtained. The evaluation of the best model on the testing data reveals its performance, which in this case achieves a validation accuracy of approximately 80.27%, demonstrating the effectiveness of using Keras Tuner for optimizing neural network models.
+
+Print out of the results as follows:
+
+68/68 - 1s - loss: 0.4438 - accuracy: 0.8027 - 763ms/epoch - 11ms/step Loss: 0.4437558352947235, Accuracy: 0.8026679158210754
 
 ## Resources
 
