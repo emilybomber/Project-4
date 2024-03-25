@@ -1,4 +1,5 @@
 # Spaceship Titanic
+## <u>Overview:                                                                                                                              </u>
 It's our mission to predict if passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly.
 
 
@@ -35,7 +36,7 @@ Name - The first and last names of the passenger.
 Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
 
 ## Resources
-Citation:
+
 Addison Howard, Ashley Chow, Ryan Holbrook. (2022). Spaceship Titanic. Kaggle. https://kaggle.com/competitions/spaceship-titanic
 
 Image in tableau obtained from - https://neural.love/ai-art-generator/1eda7871-ebcd-6310-a0e2-8b95972b3201/titanic-in-space
