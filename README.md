@@ -76,11 +76,28 @@ The provided code demonstrates the utilization of Keras Tuner, a tool for hyperp
 
 The **create_model** function defines the architecture of the neural network model with tunable hyperparameters using Keras Tuner's API. It allows Keras Tuner to choose the activation function for hidden layers, the number of neurons in the first layer, the number of hidden layers, and the number of neurons in each hidden layer. These hyperparameters are then used to construct the model within the search space defined by the user.
 
-The Keras Tuner instance, configured with the Hyperband algorithm, conducts a hyperparameter search over a specified number of epochs and iterations. The search is performed using the training data (**X_train_scaled** and **y_train**) while validating against the testing data (**X_test_scaled** and **y_test**). After the search, the best hyperparameters and the corresponding model are obtained. The evaluation of the best model on the testing data reveals its performance, which in this case achieves a validation accuracy of approximately 80.27%, demonstrating the effectiveness of using Keras Tuner for optimizing neural network models.
+The Keras Tuner instance, configured with the Hyperband algorithm, conducts a hyperparameter search over a specified number of epochs and iterations. The search is performed using the training data (**X_train_scaled** and **y_train**) while validating against the testing data (**X_test_scaled** and **y_test**). After the search, the best hyperparameters and the corresponding model are obtained. The evaluation of the best model on the testing data reveals its performance, which in this case achieves a validation accuracy of approximately 80.36%, demonstrating the effectiveness of using Keras Tuner for optimizing neural network models.
+
+Best model hyperparameters from the keras tuner:
+
+{'activation': 'tanh',
+ 'first_units': 6,
+ 'num_layers': 2,
+ 'units_0': 6,
+ 'units_1': 9,
+ 'units_2': 4,
+ 'units_3': 4,
+ 'units_4': 4,
+ 'units_5': 4,
+ 'tuner/epochs': 50,
+ 'tuner/initial_epoch': 17,
+ 'tuner/bracket': 3,
+ 'tuner/round': 3,
+ 'tuner/trial_id': '0046'}
 
 Print out of the results as follows:
 
-68/68 - 1s - loss: 0.4438 - accuracy: 0.8027 - 763ms/epoch - 11ms/step Loss: 0.4437558352947235, Accuracy: 0.8026679158210754
+68/68 - 1s - loss: 0.4347 - accuracy: 0.8036 - 539ms/epoch - 8ms/step Loss: 0.4346829354763031, Accuracy: 0.8035878539085388
 
 ## Resources
 
