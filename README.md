@@ -44,6 +44,9 @@ Transported - Whether the passenger was transported to another dimension. This i
 
 ![image](https://github.com/emilybomber/Project-4/assets/146396417/aed9faf0-c151-4a9a-af8f-3a133804df46)
 
+![image](https://github.com/emilybomber/Project-4/assets/146396417/35646685-ba0a-49a2-a81f-98378e7eec4c)
+
+
 
 
 ## Data Model Optimization
