@@ -45,6 +45,7 @@ Transported - Whether the passenger was transported to another dimension. This i
 ![image](https://github.com/emilybomber/Project-4/assets/146396417/aed9faf0-c151-4a9a-af8f-3a133804df46)
 
 
+
 ## Data Model Optimization
 
 
@@ -62,6 +63,9 @@ The iterative optimization process, crucial for enhancing the model's performanc
 Print out of the results as follows:
 
 68/68 - 0s - loss: 0.4423 - accuracy: 0.7912 - 98ms/epoch - 1ms/step Loss: 0.4422522485256195, Accuracy: 0.7911683320999146
+
+
+![image](https://github.com/emilybomber/Project-4/assets/146396417/0b81337d-f876-4691-a64a-0d966bfd07c8)
 
 After running an initial model, we the opted to use Keras Tuner
 
