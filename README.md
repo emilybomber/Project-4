@@ -45,7 +45,11 @@ Name - The first and last names of the passenger.
 
 Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
 
+### In these first sets of graphs we looked at a break down of the ships populous.
+
 ![image](https://github.com/emilybomber/Project-4/assets/146396417/aed9faf0-c151-4a9a-af8f-3a133804df46)
+
+### This graph shows the age of the ship's passengers.
 
 ![image](https://github.com/emilybomber/Project-4/assets/146396417/35646685-ba0a-49a2-a81f-98378e7eec4c)
 
@@ -66,14 +70,15 @@ The iterative optimization process, crucial for enhancing the model's performanc
 
 ![image](https://github.com/emilybomber/Project-4/assets/144865763/143a836d-b640-4612-b45d-107434ad82e0)
 
-Print out of the results as follows:
+#### Print out of the results as follows:
 
 68/68 - 0s - loss: 0.4423 - accuracy: 0.7912 - 98ms/epoch - 1ms/step Loss: 0.4422522485256195, Accuracy: 0.7911683320999146
 
+### From the trained data we see the following breakdowns of passengers transported.
 
 ![image](https://github.com/emilybomber/Project-4/assets/146396417/0b81337d-f876-4691-a64a-0d966bfd07c8)
 
-After running an initial model, we the opted to use Keras Tuner
+After running an initial model, we the opted to use **Keras Tuner**
 
 The provided code demonstrates the utilization of Keras Tuner, a tool for hyperparameter tuning in TensorFlow, to optimize the neural network model for binary classification. Instead of manually specifying hyperparameters like activation functions and layer sizes, Keras Tuner automates this process by searching through a predefined search space for the best set of hyperparameters that maximize the chosen objective metric. In this case, the objective is set to maximize validation accuracy.
 
@@ -81,26 +86,30 @@ The **create_model** function defines the architecture of the neural network mod
 
 The Keras Tuner instance, configured with the Hyperband algorithm, conducts a hyperparameter search over a specified number of epochs and iterations. The search is performed using the training data (**X_train_scaled** and **y_train**) while validating against the testing data (**X_test_scaled** and **y_test**). After the search, the best hyperparameters and the corresponding model are obtained. The evaluation of the best model on the testing data reveals its performance, which in this case achieves a validation accuracy of approximately 80.36%, demonstrating the effectiveness of using Keras Tuner for optimizing neural network models.
 
-Best model hyperparameters from the keras tuner:
+#### Best model hyperparameters from the keras tuner:
 
 {'activation': 'tanh',
- 'first_units': 6,
- 'num_layers': 2,
- 'units_0': 6,
- 'units_1': 9,
- 'units_2': 4,
- 'units_3': 4,
- 'units_4': 4,
- 'units_5': 4,
+ 'first_units': 10,
+ 'num_layers': 6,
+ 'units_0': 2,
+ 'units_1': 5,
+ 'units_2': 6,
+ 'units_3': 2,
+ 'units_4': 7,
  'tuner/epochs': 50,
  'tuner/initial_epoch': 17,
  'tuner/bracket': 3,
  'tuner/round': 3,
- 'tuner/trial_id': '0046'}
+ 'units_5': 1,
+ 'tuner/trial_id': '0049'}
 
-Print out of the results as follows:
+![image](https://github.com/emilybomber/Project-4/assets/144865763/a240b4e2-1f3d-4bb0-8c91-28a827b88de7)
 
-68/68 - 1s - loss: 0.4347 - accuracy: 0.8036 - 539ms/epoch - 8ms/step Loss: 0.4346829354763031, Accuracy: 0.8035878539085388
+![image](https://github.com/emilybomber/Project-4/assets/144865763/a6039bed-2924-4845-9506-6a7d6b7fb319)
+
+#### Print out of the results as follows:
+
+68/68 - 0s - loss: 0.4686 - accuracy: 0.8059 - 383ms/epoch - 6ms/step Loss: 0.46856844425201416, Accuracy: 0.805887758731842
 
 ## Resources
 
