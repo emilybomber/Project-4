@@ -42,6 +42,9 @@ Name - The first and last names of the passenger.
 
 Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
 
+![image](https://github.com/emilybomber/Project-4/assets/146396417/aed9faf0-c151-4a9a-af8f-3a133804df46)
+
+
 ## Data Model Optimization
 
 
