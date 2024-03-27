@@ -116,3 +116,6 @@ The Keras Tuner instance, configured with the Hyperband algorithm, conducts a hy
 Addison Howard, Ashley Chow, Ryan Holbrook. (2022). Spaceship Titanic. Kaggle. https://kaggle.com/competitions/spaceship-titanic
 
 Image in tableau obtained from - https://neural.love/ai-art-generator/1eda7871-ebcd-6310-a0e2-8b95972b3201/titanic-in-space
+
+![image](https://github.com/emilybomber/Project-4/assets/46686019/19c0d2be-ec5f-4d24-b0ed-efeeb13226fb)
+
