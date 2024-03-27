@@ -113,13 +113,13 @@ The Keras Tuner instance, configured with the Hyperband algorithm, conducts a hy
 
 ## Final Analysis
 
-The project aims to predict whether a passenger was transported to an alternate dimension during the collision of the Spaceship Titanic with a spacetime anomaly. Through the utilization of machine learning techniques and tools, specifically TensorFlow's Keras API and Keras Tuner, the project successfully develops and optimizes a binary classification model.
+The project aims to predict whether a passenger was transported to an alternate dimension during the collision of the Spaceship Titanic with a spacetime anomaly. Through the use of machine learning techniques and tools, specifically TensorFlow's Keras API and Keras Tuner, the project successfully creates and optimizes a binary classification model.
 
-The data starts with information about passengers, like their age, where they're from, and whether they used certain amenities. This is done to analyze this data to understand things like the ages, VIP status, and other demographic characteristics of the passengers.
+The data starts with information about passengers and gains insights into the age distribution, VIP status, and other demographic characteristics.
 
 The data model optimization process involves the development of a neural network model using TensorFlow's Keras API. The model architecture consists of two hidden layers with ReLU activation functions, culminating in a sigmoid activation function for binary classification. Through iterative optimization, the model achieves an accuracy of approximately 79.12% on the testing set, surpassing the required threshold of 75%.
 
-To further enhance model performance, Keras Tuner is employed for hyperparameter tuning. Keras Tuner automates the search for optimal hyperparameters, such as activation functions and layer sizes, maximizing the validation accuracy. The best model obtained through Keras Tuner achieves a validation accuracy of approximately 80.36%, demonstrating the effectiveness of this approach in optimizing neural network models.
+To further enhance model performance, Keras Tuner is applied for hyperparameter tuning. Keras Tuner automates the search for optimal hyperparameters, such as activation functions and layer sizes, maximizing the validation accuracy. The best model obtained through Keras Tuner achieves a validation accuracy of approximately 80.36%, demonstrating the effectiveness of this approach in optimizing neural network models.
 
 Overall, the project showcases the application of machine learning techniques to address a "real-world" problem in a futuristic context, highlighting the importance of data analysis, model development, and optimization in solving complex challenges.
 
